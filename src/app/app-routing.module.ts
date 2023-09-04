@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { MangaListComponent } from './manga-list/manga-list.component';
+import { MangaDetailsComponent } from './manga-details/manga-details.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponentComponent}, 
   { path: 'mangas', component: MangaListComponent},
+  { path: 'mangas/:id', component: MangaDetailsComponent },
 ];
 
 @NgModule({
