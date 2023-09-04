@@ -1,6 +1,7 @@
+import { Manga } from "./entities"
 
 
-
+export const MANGAS : Manga[] =
 
 [
     {
