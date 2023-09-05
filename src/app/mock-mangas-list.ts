@@ -9,21 +9,21 @@ export const MANGAS : Manga[] =
       "title": "One Piece",
       "author": "Eiichiro Oda",
       "description": "Monkey D. Luffy embarks on a journey to become the Pirate King.",
-      "image": "https://example.com/one_piece.jpg"
+      "image": "https://www.glenat.com/sites/default/files/images/livres/couv/9782344049020-001-T.jpeg"
     },
     {
       "id": 2,
       "title": "Naruto",
       "author": "Masashi Kishimoto",
       "description": "Naruto Uzumaki seeks to become the strongest ninja in his village.",
-      "image": "https://example.com/naruto.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU6QVYtKu7k77BZIrJZiodEa2U5IIf932ctQ&usqp=CAU"
     },
     {
       "id": 3,
       "title": "Bleach",
       "author": "Tite Kubo",
       "description": "Ichigo Kurosaki gains the powers of a Soul Reaper.",
-      "image": "https://example.com/bleach.jpg"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWW73-swmD8LplrM5QqpThFVNbKsiKiP4S-g&usqp=CAU"
     },
     {
       "id": 4,

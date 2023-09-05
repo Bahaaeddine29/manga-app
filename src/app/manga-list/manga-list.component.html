@@ -1,10 +1,18 @@
 
-<h1>Liste des Mangas</h1>
-<ul>
-  <li *ngFor="let manga of mangas">
-    
-     <p>{{manga.title}}</p>
-    
-  </li>
-</ul>
 
+<div class="container">
+    <h1 class="text-center mt-3 mb-3">Liste des Mangas</h1>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let manga of mangas">
+        <div class="card">
+          <img [src]="manga.image" class="card-img-top w-100" alt="Image du manga">
+          <div class="card-body">
+            <h5 class="card-title">{{ manga.title }}</h5>
+            <p class="card-text">{{ manga.description }}</p>
+            <p class="card-text">Auteur : {{ manga.author }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
