@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { MangaListComponent } from './manga-list/manga-list.component';
 import { MangaDetailsComponent } from './manga-details/manga-details.component';
+import { Error404Component } from './error404/error404.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponentComponent,
     MangaListComponent,
-    MangaDetailsComponent
+    MangaDetailsComponent,
+    Error404Component,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
