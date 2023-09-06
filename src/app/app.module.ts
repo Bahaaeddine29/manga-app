@@ -9,6 +9,7 @@ import { MangaDetailsComponent } from './manga-details/manga-details.component';
 import { Error404Component } from './error404/error404.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     MangaDetailsComponent,
     Error404Component,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
