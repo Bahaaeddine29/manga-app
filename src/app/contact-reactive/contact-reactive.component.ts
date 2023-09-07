@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
+
 
 @Component({
   selector: 'app-contact-reactive',
@@ -6,5 +8,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./contact-reactive.component.css']
 })
 export class ContactReactiveComponent {
+
+  public form: FormGroup = new FormGroup ({
+    username: new FormControl (''), 
+    password: new FormControl ('')
+
+  });
+
+  onSubmit() {
+    if (this.form.valid) {
+      console.log('Formulaire valide');
+    }
+  }
+  
 
 }
