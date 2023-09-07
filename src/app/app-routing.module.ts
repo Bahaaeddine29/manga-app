@@ -6,6 +6,7 @@ import { MangaDetailsComponent } from './manga-details/manga-details.component';
 import { Error404Component } from './error404/error404.component';
 import { UserComponent } from './user/user.component';
 import { ContactComponent } from './contact/contact.component';
+import { ContactReactiveComponent } from './contact-reactive/contact-reactive.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponentComponent}, 
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'mangas/:id', component: MangaDetailsComponent },
   { path : 'users', component: UserComponent}, 
   { path : 'contact', component: ContactComponent},
+  { path : 'contactReactive', component: ContactReactiveComponent},
   { path: '**', component: Error404Component}
 ];
 
