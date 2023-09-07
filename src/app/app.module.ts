@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { UserComponent } from './user/user.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { UserDetailComponent } from './user-detail/user-detail.component';
     HeaderComponent,
     FooterComponent,
     UserComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
